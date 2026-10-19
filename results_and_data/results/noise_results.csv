@@ -1,0 +1,8 @@
+noise,example,embedding finds merchant,tfidf finds merchant,embedding right category,avg similarity
+no change,292 - TA EXPRESS WHITE,1.0,1.0,0.999,0.96613944
+cut to 12 chars,292 - TA EXP,0.913,0.911,0.961,0.932452
+add 'SQ *',SQ *292 - TA EXPRESS WHITE,0.997,0.999,0.996,0.92452395
+add 'TST* ',TST* 292 - TA EXPRESS WHITE,0.993,1.0,0.996,0.9210255
+add 'PAYPAL *',PAYPAL *292 - TA EXPRESS WHITE,0.972,0.999,0.969,0.8913694
+add store number,292 - TA EXPRESS WHITE #5229,0.998,1.0,0.997,0.92415345
+prefix + store number,SQ *292 - TA EXPRESS WHITE #5229,0.974,1.0,0.977,0.88172716

@@ -1,0 +1,10 @@
+sentence-transformers==6.1.0   # EmbeddingGemma 2 needs >= 6.1.0
+transformers==5.20.1
+huggingface_hub==1.33.0        # has the Buckets API
+# already on Colab:
+torch
+torchvision                    # needed to load the full multimodal checkpoint
+scikit-learn
+pandas
+numpy
+matplotlib

@@ -1,0 +1,44 @@
+{
+  "model": "google/embeddinggemma-2",
+  "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+  "split_date": "2025-09-04",
+  "seed": 42,
+  "n_queries": 20000,
+  "accuracy_by_bucket": {
+    "0": {
+      "n": 1960,
+      "embedding": 0.5091836734693878,
+      "tfidf": 0.4306122448979592
+    },
+    "1": {
+      "n": 335,
+      "embedding": 0.9223880597014925,
+      "tfidf": 0.9194029850746268
+    },
+    "2-5": {
+      "n": 848,
+      "embedding": 0.9209905660377359,
+      "tfidf": 0.9198113207547169
+    },
+    "6+": {
+      "n": 16857,
+      "embedding": 0.9587115145043602,
+      "tfidf": 0.9543809693302485
+    },
+    "all": {
+      "n": 20000,
+      "embedding": 0.91245,
+      "tfidf": 0.901
+    }
+  },
+  "new_merchant_auroc": {
+    "embedding": 0.9656212102357573,
+    "tfidf": 0.8080531641703244
+  },
+  "right_vs_wrong_auroc": 0.7241951781997615,
+  "prompt_check": {
+    "query/document (used above)": 0.91245,
+    "no prompt": 0.91485,
+    "STS prompt on both sides": 0.912
+  }
+}
